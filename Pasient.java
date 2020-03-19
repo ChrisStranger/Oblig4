@@ -17,6 +17,10 @@ public class Pasient {
         return reseptStabel;
     }
 
+    public int hentPasientID() {
+        return pasientID;
+    }
+
     public void leggTilResept(Resept resept) {
         reseptStabel.leggPaa(resept);
     }
